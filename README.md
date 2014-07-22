@@ -33,3 +33,24 @@ JSONRPC2Request reqOut = new JSONRPC2Request(method, params, id);
 String jsonString = reqOut.toString();
 
 // jsonString can now be dispatched to the server...
+
+output:
+{ 
+  "id"      : "req-001",
+  "method"  : "makePayment",
+  "params"  : { "amount" : 175.05, "recipient" : "Penny Adams" },
+  "jsonrpc" : "2.0"
+}
+
+Suppose you have a method "makePayment" which takes three parameters specified by name. Its signature looks like this:
+method: "makePayment"
+named parameters:
+	"recipient"    : string, mandatory
+	"amount"       : number, mandatory
+	"confirmation" : boolean, optional (defaults to false)
+	
+	output:
+	
+	
+
+
