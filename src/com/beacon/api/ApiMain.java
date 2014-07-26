@@ -7,7 +7,7 @@ public class ApiMain {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("This is a test");
+		System.out.println("This is a test and it is going to be successful!");
 	}
 
 }
